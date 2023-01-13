@@ -39,8 +39,7 @@ nav.navbar {
     margin: 0 6px;
 }
 .social-list li a {
-    border: 1px solid black;
-    transform: rotate(45deg);
+  
     padding: 2px 4px;
     display: block;
     width: 33px;
@@ -130,7 +129,7 @@ header .banner {
 .about-text {
     font-size: 1.9vh;
     line-height: 2;
-    margin: 5% 0 7%;
+    margin: 5% 0 0;
 }
 /*about end*/
 
@@ -170,6 +169,30 @@ header .banner {
 }
 #work-6 {
     background: url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/120669925_134867345028162_6168485344341850271_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=_-wymzlQ3pUAX86iX9g&_nc_ht=scontent-mia3-2.xx&oh=00_AfBNfqg_kPTa9c2GjvkHQq-dttkkv4CbKEWhVAC-Lpi3AQ&oe=63D2A459") no-repeat 100%;
+    background-size: cover;
+}
+#work-7 {
+    background: url("./images/full-kitchen-4.jpg") no-repeat 100%;
+    background-size: cover;
+}
+#work-8 {
+    background: url("./images/oven.jpg") no-repeat 100%;
+    background-size: cover;
+}
+#work-9 {
+    background: url("./images/stove.jpg") no-repeat 100%;
+    background-size: cover;
+}
+#work-10 {
+    background: url("./images/bull-oven.jpg") no-repeat 100%;
+    background-size: cover;
+}
+#work-11 {
+    background: url("./images/island&fridge.jpg") no-repeat 100%;
+    background-size: cover;
+}
+#work-12 {
+    background: url("./images/beautiful-kitchen.jpg") no-repeat 100%;
     background-size: cover;
 }
 .block::after, .block::before {
@@ -255,7 +278,6 @@ header .banner {
 .social-footer .social-list li a{
     display: block;
     position: relative;
-    border: 2px solid #444;
     transform: rotate(45deg);
     width: 60px;
     height: 60px;
@@ -263,7 +285,7 @@ header .banner {
 .social-footer .social-list li {
     display: inline-block;
     list-style: none;
-    margin-left: 15px;
+    margin-left: 5px;
 }
 .social-footer .social-list li a i {
     margin-top: 5px;
