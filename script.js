@@ -14,3 +14,6 @@ $(function(){
         window.addEventListener('scroll', paralax);
     })();
 });
+$(function(){
+    
+})

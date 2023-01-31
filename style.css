@@ -3,6 +3,13 @@
 
 
 /*global*/
+.background-yellow {
+    background-color: #ffbf00;
+    border-radius: 2%;
+}
+h1, .blue {
+    color:#030382;
+}
 
 h2 {
     font-size: 4rem;
@@ -24,8 +31,8 @@ ul {
 nav.navbar {
     background: #fff;
     font-family: 'Lato', serif;
-    font-size: 1.2vh;
-    letter-spacing: 0.4rem;
+    font-size: 1vh;
+    letter-spacing: 0.3rem;
 }
 .scroll-down {
     margin-top: 3%;
@@ -148,27 +155,27 @@ header .banner {
     height: 300px;
 }
 #work-1 {
-    background: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/122870200_145762337271996_4026157872613511743_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=0debeb&_nc_ohc=JcPVfbNbGykAX-8nmdp&_nc_ht=scontent-mia3-1.xx&oh=00_AfCEgF2mpP1krnzYSUTVpIG-GXjywcfRasLf-GsfUR9JOA&oe=63D29B0A") no-repeat 100%;
+    background: url("./images/backyard-dinning.jpg") no-repeat 100%;
     background-size: cover;
 }
 #work-2 {
-    background: url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/188305442_289014079613487_2673748574088647112_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=Xyx5geMJy5EAX_nIgnl&_nc_ht=scontent-mia3-2.xx&oh=00_AfCPExd6ZyxVn7Ahs0xZE24e2KCBZCaZgztDx_LKfQOClQ&oe=63D2A6A1") no-repeat 100%;
+    background: url("./images/full-kitchen-1.jpg") no-repeat 100%;
     background-size: cover;
 }
 #work-3 {
-    background: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/123070642_145762377271992_4059213175971403288_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=0debeb&_nc_ohc=rbwI34rPqysAX9NT4k4&_nc_ht=scontent-mia3-1.xx&oh=00_AfDfDOrOg7hlcWEOdUsXAADH7lctWoNtUO-SdP20Zsl-Rw&oe=63D2B20E") no-repeat 100%;
+    background: url("images/fire-table.jpg") no-repeat 100%;
     background-size: cover;
 }
 #work-4 {
-    background: url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/122979692_145763457271884_1622194160441269635_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=0debeb&_nc_ohc=-Uak_5Y643EAX8tHZXJ&_nc_ht=scontent-mia3-2.xx&oh=00_AfDpfLK5O15zBDdeOxAd_WXgKCX59MUC5A68x5P-91WkcQ&oe=63D2A94F") no-repeat 100%;
+    background: url("./images/poolside.jpg") no-repeat 100%;
     background-size: cover;
 }
 #work-5 {
-    background: url("https://scontent-mia3-1.xx.fbcdn.net/v/t1.6435-9/122829095_145725140609049_537475797596233713_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=xu_8q20WR7UAX8XSK6k&_nc_ht=scontent-mia3-1.xx&oh=00_AfBMpnzw9xRRjHHdX5TBDnA92AjxjL7fwMyan_u0rW6mCQ&oe=63D2CB1F") no-repeat 100%;
+    background: url("./images/hood-stove.jpg") no-repeat 100%;
     background-size: cover;
 }
 #work-6 {
-    background: url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.6435-9/120669925_134867345028162_6168485344341850271_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=_-wymzlQ3pUAX86iX9g&_nc_ht=scontent-mia3-2.xx&oh=00_AfBNfqg_kPTa9c2GjvkHQq-dttkkv4CbKEWhVAC-Lpi3AQ&oe=63D2A459") no-repeat 100%;
+    background: url("./images/shop.jpg") no-repeat 100%;
     background-size: cover;
 }
 #work-7 {
@@ -337,13 +344,18 @@ footer h2 {
     letter-spacing: 0.33rem;
     padding-left: 7%;
 }
+.facebook-link {
+  font-size: 60px;
+}
 /*footer end*/
 
 /* media queries */
 @media screen and (min-width: 991px) {
     header .banner {
         background-position: center;
+        
     }
+    
 }
 @media screen and (max-width: 990px) {
     header .banner-content {
@@ -355,7 +367,17 @@ footer h2 {
     .contacts-data {
         text-align: center;
     }
+    .bounceInLeft {
+        animation: none;
+      }
+      .bounceInRight {
+          animation: none;
+      }
+      .navbar {
+        display: none;
+      }
 }
+
 @media screen and (max-width: 767px) {
     header .banner-content h1 {
         font-size: 20rem;
